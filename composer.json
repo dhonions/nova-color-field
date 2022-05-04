@@ -1,0 +1,32 @@
+{
+  "name": "everzel/nova-color-field",
+  "description": "A Laravel Nova Color Picker field.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "color picker",
+    "field"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2.0",
+    "laravel/nova": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Everzel\\NovaColorField\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Everzel\\NovaColorField\\ColorFieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
