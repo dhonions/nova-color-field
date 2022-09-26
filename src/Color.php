@@ -1,6 +1,6 @@
 <?php
 
-namespace Everzel\NovaColorField;
+namespace Dhonions\NovaColorField;
 
 use Exception;
 use Laravel\Nova\Fields\Field;
