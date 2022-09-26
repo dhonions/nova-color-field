@@ -1,6 +1,6 @@
 <?php
 
-namespace Everzel\NovaColorField;
+namespace Dhonions\NovaColorField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
